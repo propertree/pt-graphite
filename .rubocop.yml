@@ -1,0 +1,12 @@
+AllCops:
+  Exclude:
+    - tmp/**/*
+
+LineLength:
+  Enabled: false
+MethodLength:
+  Max: 30
+SingleSpaceBeforeFirstArg:
+  Enabled: false
+HashSyntax:
+  Enabled: false
