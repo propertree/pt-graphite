@@ -83,7 +83,7 @@ default['graphite']['storage_aggregations'] = {
 #### graphite_web
 
 * `node['graphite']['web']['version']` - The version of the graphite-web package we will install. Default is `0.9.12+debian-3`.
-* `node['graphite']['web']['secret_key']` - Django's secret key. You can read more about it [here](https://docs.djangoproject.com/en/dev/ref/settings/#secret-key). Default is `REPLACE_ME`.
+* `node['graphite']['web']['secret_key']` - Django's secret key. You can read more about it [here](https://docs.djangoproject.com/en/stable/ref/settings/#secret-key). Default is `REPLACE_ME`.
 * `node['graphite']['web']['time_zone']` - The time zone used in Graphite Web. Default is `America/Los_Angeles`.
 
 Contributing
