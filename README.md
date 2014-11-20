@@ -1,6 +1,8 @@
 pt-graphite Cookbook
 ====================
 
+[![Build Status](https://travis-ci.org/propertree/pt-graphite.svg?branch=master)](https://travis-ci.org/propertree/pt-graphite)
+
 This cookbook installs and configures Graphite on Ubuntu using system packages.
 
 Requirements
