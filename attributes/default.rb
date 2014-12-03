@@ -27,7 +27,7 @@ default['graphite']['storage_schemas'] = {
     'pattern'    => '^carbon\.',
     'retentions' => '60:90d'
   },
-  'default_1min_for_1day' => {
+  'default' => {
     'pattern'    => '.*',
     'retentions' => '60s:1d'
   }
